@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Seat_Selection">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TextView
+            android:id="@+id/seat_selection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Please Select Your Seats"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/r1_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:text="A"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/r1c1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r1c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r1c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r1c4"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="20dp" />
+
+            <CheckBox
+                android:id="@+id/r1c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r1c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r1c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/r2_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:text="B"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/r2c1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect"
+
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <CheckBox
+                android:id="@+id/r2c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r2c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r2c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="20dp" />
+
+            <CheckBox
+                android:id="@+id/r2c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r2c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r2c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/r3_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:text="C"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/r3c1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <CheckBox
+                android:id="@+id/r3c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r3c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r3c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="20dp" />
+
+            <CheckBox
+                android:id="@+id/r3c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r3c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r3c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/r4_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:text="D"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/r4c1"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r4c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r4c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r4c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="20dp" />
+
+            <CheckBox
+                android:id="@+id/r4c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r4c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r4c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/r5_E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:text="E"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/r5c1"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r5c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r5c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r5c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="20dp" />
+
+            <CheckBox
+                android:id="@+id/r5c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r5c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r5c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/r6_F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:text="F"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/r6c1"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r6c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect"/>
+
+            <CheckBox
+                android:id="@+id/r6c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r6c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="20dp" />
+
+            <CheckBox
+                android:id="@+id/r6c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r6c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r6c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/row7"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/r7_G"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:text="G"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/r7c1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <CheckBox
+                android:id="@+id/r7c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="TouchTargetSizeCheck"
+                android:onClick="onSeatSelect"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                />
+
+            <CheckBox
+                android:id="@+id/r7c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r7c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="20dp" />
+
+            <CheckBox
+                android:id="@+id/r7c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r7c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+            <CheckBox
+                android:id="@+id/r7c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/ic_baseline_event_seat_24"
+                android:onClick="onSeatSelect" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="53dp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/Screen_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="----------------------Screen----------------------"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="58dp" />
+
+        <TextView
+            android:id="@+id/Movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Movie Name : "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Movie_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Movie Time : "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:id="@+id/Amount_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Seat Selected : 0 * 250₹ = 0.00₹"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/Nextbtn"
+            android:layout_width="259dp"
+            android:layout_height="67dp"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#0088FF"
+            android:text="Next"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:strokeColor="#000000"
+            app:strokeWidth="1dp" />
+    </TableLayout>
+
+
+
+
+</LinearLayout>

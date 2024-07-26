@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Payment_method">
+
+    <TextView
+        android:id="@+id/pymentoption"
+        android:layout_width="400dp"
+        android:layout_height="56dp"
+        android:text="Select Payment Option"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="286dp"
+        android:layout_height="199dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69">
+
+        <RadioButton
+            android:id="@+id/debit_radio"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:buttonTint="#000000"
+            android:checked="false"
+            android:text="Debit Card"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="29sp" />
+
+        <RadioButton
+            android:id="@+id/credit_radio"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:buttonTint="#000000"
+            android:checked="false"
+            android:text="Credit Card"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="29sp" />
+
+        <RadioButton
+            android:id="@+id/cash_radio"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:buttonTint="#000000"
+            android:checked="false"
+            android:text="Cash Payment"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="29sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirmbtn"
+        android:layout_width="321dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#0088FF"
+        android:text="Confirm Book Ticket"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/m_info"
+        android:layout_width="377dp"
+        android:layout_height="46dp"
+        android:text="Movie Name  :"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/m_info2"
+        android:layout_width="377dp"
+        android:layout_height="46dp"
+        android:text="Movie Time  :"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/m_info3"
+        android:layout_width="374dp"
+        android:layout_height="93dp"
+        android:text="Movie Venue  :"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <TextView
+        android:id="@+id/m_info4"
+        android:layout_width="377dp"
+        android:layout_height="46dp"
+        android:text="Total Seat  :"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <TextView
+        android:id="@+id/m_info5"
+        android:layout_width="377dp"
+        android:layout_height="46dp"
+        android:text="Total Seat  :"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+</androidx.constraintlayout.widget.ConstraintLayout>

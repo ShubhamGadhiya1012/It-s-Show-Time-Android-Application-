@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.advance_gtu">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/movieapp_logo"
+        android:label="It&apos;s Movie Time"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Advance_GTU"
+        tools:targetApi="31">
+        <activity
+            android:name=".History_Movie"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Invoice_bill"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Payment_method"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Edit_Profile"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Seat_Selection"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Tab_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainSplash"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Upcoming_Description"
+            android:exported="false"
+            android:screenOrientation="portrait" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.actions" -->
+        <!-- android:resource="@xml/Button_Time" /> -->
+        <activity
+            android:name=".Home_fragment"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registration"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

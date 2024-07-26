@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#0088FF"
+    tools:context=".fragments.Wednesday">
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="680dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19 Cinema: South Bopal, Ahemdabad"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="9:45 AM" />
+
+                    <Button
+                        android:id="@+id/selet_seat1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="12:50 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="3:55 PM" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="7:00 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="10:05 PM" />
+
+                </TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PVR: Acropolis, Ahmedabad"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="9:30 AM" />
+
+                    <Button
+                        android:id="@+id/selet_seat6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="11:00 AM" />
+
+                    <Button
+                        android:id="@+id/selet_seat7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="2:30 PM" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="4:00 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="6:00 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="7:30 PM" />
+
+                </TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AB Miniplex: Shrivranjini Cross Road, Satellite"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="9:00 AM" />
+
+                    <Button
+                        android:id="@+id/selet_seat12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="12:05 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="3:10 PM" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="3:50 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="6:55 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="9:30 PM" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="10:00 PM" />
+
+                </TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Connplex Smart Theatre: Prahladnagar"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/selet_seat18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="10:00 AM" />
+
+                    <Button
+                        android:id="@+id/selet_seat19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="12:15 PM" />
+
+                    <Button
+                        android:id="@+id/selet_seat20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:backgroundTint="#0088FF"
+                        android:text="4:00 PM" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
